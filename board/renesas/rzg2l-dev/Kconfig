@@ -30,3 +30,18 @@ config SYS_CONFIG_NAME
 
 endif
 
+if TARGET_RZG2L_NOVOTECH
+
+config SYS_SOC
+        default "rmobile"
+
+config SYS_BOARD
+        default "rzg2l-dev"
+
+config SYS_VENDOR
+        default "renesas"
+
+config SYS_CONFIG_NAME
+        default "rzg2l-novotech"
+
+endif
