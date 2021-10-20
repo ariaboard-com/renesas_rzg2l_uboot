@@ -62,7 +62,7 @@
 #define CONFIG_EXTRA_ENV_SETTINGS \
 	"bootm_size=0x10000000 \0" \
 	"prodsdbootargs=setenv bootargs rw rootwait earlycon root=/dev/mmcblk1p2 video=HDMI-A-1:1280x720@60e \0" \
-	"prodemmcbootargs=setenv bootargs rw rootwait earlycon root=/dev/mmcblk0p2 video=HDMI-A-1:1280x720@60e consoleblank=0 \0" \
+	"prodemmcbootargs=setenv bootargs rw rootwait earlycon root=/dev/mmcblk0p2 video=HDMI-A-1:1280x720@60e \0" \
 	"bootimage=booti 0x48080000 - 0x48000000 \0" \
 	"emmcload=fatload mmc 0:1 0x48080000 Image;fatload mmc 0:1 0x48000000 r9a07g044l2-rzg2l-novotech.dtb;run prodemmcbootargs \0" \
 	"sd1load=fatload mmc 1:1 0x48080000 Image;fatload mmc 1:1 0x48000000 r9a07g044l2-rzg2l-novotech.dtb;run prodsdbootargs \0" \

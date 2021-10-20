@@ -14,7 +14,7 @@ CONFIG_SMBIOS_PRODUCT_NAME=""
 CONFIG_SPL=n
 CONFIG_FIT=y
 CONFIG_USE_BOOTARGS=y
-CONFIG_BOOTARGS="rw rootwait earlycon root=/dev/mmcblk0p2"
+CONFIG_BOOTARGS="rw rootwait earlycon root=/dev/mmcblk0p2 consoleblank=0"
 CONFIG_SUPPORT_RAW_INITRD=y
 CONFIG_DEFAULT_FDT_FILE="rzg2l-novotech.dtb"
 CONFIG_VERSION_VARIABLE=y
