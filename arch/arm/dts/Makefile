@@ -800,7 +800,9 @@ dtb-$(CONFIG_RCAR_GEN3) += \
 	smarc-rzv2l.dtb \
 	rzg2lc-dev.dtb \
 	smarc-rzg2lc.dtb \
-	rzg2l-novotech.dtb
+	rzg2l-novotech.dtb \
+	rzg2l-novotech2.dtb \
+	rzg2l-novotech4.dtb
 
 ifdef CONFIG_RCAR_GEN3
 DTC_FLAGS += -R 4 -p 0x1000
