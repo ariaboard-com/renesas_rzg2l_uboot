@@ -75,4 +75,8 @@
 /* Ethernet RAVB */
 #define CONFIG_BITBANGMII_MULTI
 
+#define CONFIG_AUTOBOOT_KEYED 1
+#define CONFIG_AUTOBOOT_PROMPT "Press ESC twice to abort autoboot in %d seconds\n", bootdelay
+#define CONFIG_AUTOBOOT_STOP_STR "\x1b\x1b"
+
 #endif /* __SMARC_RZG2L_H */
