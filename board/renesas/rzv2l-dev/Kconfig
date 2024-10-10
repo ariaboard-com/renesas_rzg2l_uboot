@@ -30,3 +30,50 @@ config SYS_CONFIG_NAME
 
 endif
 
+if TARGET_RZV2L_NOVOTECH
+
+config SYS_SOC
+	default "rmobile"
+
+config SYS_BOARD
+	default "rzv2l-dev"
+
+config SYS_VENDOR
+	default "renesas"
+
+config SYS_CONFIG_NAME
+	default "rzv2l-novotech"
+
+endif
+
+if TARGET_RZV2L_NOVOTECH2
+
+config SYS_SOC
+	default "rmobile"
+
+config SYS_BOARD
+	default "rzv2l-dev"
+
+config SYS_VENDOR
+	default "renesas"
+
+config SYS_CONFIG_NAME
+	default "rzv2l-novotech2"
+
+endif
+
+if TARGET_RZV2L_NOVOTECH4
+
+config SYS_SOC
+	default "rmobile"
+
+config SYS_BOARD
+	default "rzv2l-dev"
+
+config SYS_VENDOR
+	default "renesas"
+
+config SYS_CONFIG_NAME
+	default "rzv2l-novotech4"
+
+endif

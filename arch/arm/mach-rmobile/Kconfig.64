@@ -120,6 +120,16 @@ config TARGET_RZG2L_NOVOTECH
 	bool "RZ/G2L Dev board"
 	help
           Support for Renesas RZ/G2L Dev Platform
+          
+config TARGET_RZG2L_NOVOTECH2
+	bool "RZ/G2L Dev board"
+	help
+          Support for Renesas RZ/G2L Dev Platform
+          
+config TARGET_RZG2L_NOVOTECH4
+	bool "RZ/G2L Dev board"
+	help
+          Support for Renesas RZ/G2L Dev Platform
 
 config TARGET_RZV2L_DEV
 	bool "RZ/V2L Dev board"
@@ -130,6 +140,21 @@ config TARGET_SMARC_RZV2L
 	bool "RZ/V2L Dev board"
 	help
           Support for Renesas RZ/V2L Dev Platform
+
+config TARGET_RZV2L_NOVOTECH
+	bool "RZ/V2L Dev board"
+	help
+	  Support for Renesas RZ/V2L Dev Platform
+	  
+config TARGET_RZV2L_NOVOTECH2
+	bool "RZ/V2L Dev board"
+	help
+	  Support for Renesas RZ/V2L Dev Platform
+
+config TARGET_RZV2L_NOVOTECH4
+	bool "RZ/V2L Dev board"
+	help
+	  Support for Renesas RZ/V2L Dev Platform
 
 config TARGET_RZG2LC_DEV
 	bool "RZ/G2LC Dev board"

@@ -4,7 +4,7 @@ export CROSS_COMPILE="aarch64-none-elf-"
 export WORKDIR="$(pwd)"
 export PATH="${WORKDIR}/../gcc-arm-10.2-2020.11-x86_64-aarch64-none-elf/bin:$PATH"
 
-if [ x"$1" = x"mrprober" ]; then
+if [ x"$1" = x"mrproper" ]; then
    rm -rf build
 fi
 
